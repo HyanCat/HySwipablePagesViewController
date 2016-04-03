@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662BB5DC1CB0D1F500EE8BAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB5DB1CB0D1F500EE8BAB /* main.m */; };
+		662BB5DF1CB0D1F500EE8BAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB5DE1CB0D1F500EE8BAB /* AppDelegate.m */; };
+		662BB5E21CB0D1F500EE8BAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB5E11CB0D1F500EE8BAB /* ViewController.m */; };
+		662BB5E51CB0D1F500EE8BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662BB5E31CB0D1F500EE8BAB /* Main.storyboard */; };
+		662BB5E71CB0D1F500EE8BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662BB5E61CB0D1F500EE8BAB /* Assets.xcassets */; };
+		662BB5EA1CB0D1F500EE8BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662BB5E81CB0D1F500EE8BAB /* LaunchScreen.storyboard */; };
+		662BB5F41CB0D22B00EE8BAB /* HySwipablePagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB5F31CB0D22B00EE8BAB /* HySwipablePagesViewController.m */; };
+		662BB5F71CB0D40900EE8BAB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB5F61CB0D40900EE8BAB /* FirstViewController.m */; };
+		662BB5FA1CB0D41D00EE8BAB /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB5F91CB0D41D00EE8BAB /* SecondViewController.m */; };
+		662BB5FD1CB0D42400EE8BAB /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB5FC1CB0D42400EE8BAB /* ThirdViewController.m */; };
+		662BB6011CB0D64500EE8BAB /* HyUIPanPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB6001CB0D64500EE8BAB /* HyUIPanPoint.m */; };
+		662BB6031CB0D8CC00EE8BAB /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662BB6021CB0D8CC00EE8BAB /* FirstViewController.xib */; };
+		662BB6051CB0D8DB00EE8BAB /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662BB6041CB0D8DB00EE8BAB /* SecondViewController.xib */; };
+		662BB6071CB0D8E600EE8BAB /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662BB6061CB0D8E600EE8BAB /* ThirdViewController.xib */; };
+		662BB60A1CB0E22B00EE8BAB /* UIView+HySwipablePagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662BB6091CB0E22B00EE8BAB /* UIView+HySwipablePagesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		662BB5D71CB0D1F400EE8BAB /* HySwipablePagesViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HySwipablePagesViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662BB5DB1CB0D1F500EE8BAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		662BB5DD1CB0D1F500EE8BAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		662BB5DE1CB0D1F500EE8BAB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		662BB5E01CB0D1F500EE8BAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		662BB5E11CB0D1F500EE8BAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		662BB5E41CB0D1F500EE8BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		662BB5E61CB0D1F500EE8BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		662BB5E91CB0D1F500EE8BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		662BB5EB1CB0D1F500EE8BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		662BB5F21CB0D22B00EE8BAB /* HySwipablePagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySwipablePagesViewController.h; sourceTree = "<group>"; };
+		662BB5F31CB0D22B00EE8BAB /* HySwipablePagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySwipablePagesViewController.m; sourceTree = "<group>"; };
+		662BB5F51CB0D40900EE8BAB /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		662BB5F61CB0D40900EE8BAB /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		662BB5F81CB0D41D00EE8BAB /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		662BB5F91CB0D41D00EE8BAB /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		662BB5FB1CB0D42400EE8BAB /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		662BB5FC1CB0D42400EE8BAB /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		662BB5FF1CB0D64500EE8BAB /* HyUIPanPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyUIPanPoint.h; sourceTree = "<group>"; };
+		662BB6001CB0D64500EE8BAB /* HyUIPanPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyUIPanPoint.m; sourceTree = "<group>"; };
+		662BB6021CB0D8CC00EE8BAB /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		662BB6041CB0D8DB00EE8BAB /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		662BB6061CB0D8E600EE8BAB /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		662BB6081CB0E22B00EE8BAB /* UIView+HySwipablePagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HySwipablePagesViewController.h"; sourceTree = "<group>"; };
+		662BB6091CB0E22B00EE8BAB /* UIView+HySwipablePagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HySwipablePagesViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662BB5D41CB0D1F400EE8BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662BB5CE1CB0D1F400EE8BAB = {
+			isa = PBXGroup;
+			children = (
+				662BB5D91CB0D1F500EE8BAB /* HySwipablePagesViewControllerDemo */,
+				662BB5D81CB0D1F400EE8BAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662BB5D81CB0D1F400EE8BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662BB5D71CB0D1F400EE8BAB /* HySwipablePagesViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662BB5D91CB0D1F500EE8BAB /* HySwipablePagesViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				662BB5FE1CB0D43400EE8BAB /* Controllers */,
+				662BB5F11CB0D20A00EE8BAB /* HySwipablePagesViewController */,
+				662BB5DD1CB0D1F500EE8BAB /* AppDelegate.h */,
+				662BB5DE1CB0D1F500EE8BAB /* AppDelegate.m */,
+				662BB5E01CB0D1F500EE8BAB /* ViewController.h */,
+				662BB5E11CB0D1F500EE8BAB /* ViewController.m */,
+				662BB5E31CB0D1F500EE8BAB /* Main.storyboard */,
+				662BB5E61CB0D1F500EE8BAB /* Assets.xcassets */,
+				662BB5E81CB0D1F500EE8BAB /* LaunchScreen.storyboard */,
+				662BB5EB1CB0D1F500EE8BAB /* Info.plist */,
+				662BB5DA1CB0D1F500EE8BAB /* Supporting Files */,
+			);
+			path = HySwipablePagesViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		662BB5DA1CB0D1F500EE8BAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				662BB5DB1CB0D1F500EE8BAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		662BB5F11CB0D20A00EE8BAB /* HySwipablePagesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				662BB5F21CB0D22B00EE8BAB /* HySwipablePagesViewController.h */,
+				662BB5F31CB0D22B00EE8BAB /* HySwipablePagesViewController.m */,
+				662BB5FF1CB0D64500EE8BAB /* HyUIPanPoint.h */,
+				662BB6001CB0D64500EE8BAB /* HyUIPanPoint.m */,
+				662BB6081CB0E22B00EE8BAB /* UIView+HySwipablePagesViewController.h */,
+				662BB6091CB0E22B00EE8BAB /* UIView+HySwipablePagesViewController.m */,
+			);
+			name = HySwipablePagesViewController;
+			path = ../../HySwipablePagesViewController;
+			sourceTree = "<group>";
+		};
+		662BB5FE1CB0D43400EE8BAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				662BB5F51CB0D40900EE8BAB /* FirstViewController.h */,
+				662BB5F61CB0D40900EE8BAB /* FirstViewController.m */,
+				662BB5F81CB0D41D00EE8BAB /* SecondViewController.h */,
+				662BB5F91CB0D41D00EE8BAB /* SecondViewController.m */,
+				662BB5FB1CB0D42400EE8BAB /* ThirdViewController.h */,
+				662BB5FC1CB0D42400EE8BAB /* ThirdViewController.m */,
+				662BB6021CB0D8CC00EE8BAB /* FirstViewController.xib */,
+				662BB6041CB0D8DB00EE8BAB /* SecondViewController.xib */,
+				662BB6061CB0D8E600EE8BAB /* ThirdViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662BB5D61CB0D1F400EE8BAB /* HySwipablePagesViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662BB5EE1CB0D1F500EE8BAB /* Build configuration list for PBXNativeTarget "HySwipablePagesViewControllerDemo" */;
+			buildPhases = (
+				662BB5D31CB0D1F400EE8BAB /* Sources */,
+				662BB5D41CB0D1F400EE8BAB /* Frameworks */,
+				662BB5D51CB0D1F400EE8BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HySwipablePagesViewControllerDemo;
+			productName = HySwipablePagesViewControllerDemo;
+			productReference = 662BB5D71CB0D1F400EE8BAB /* HySwipablePagesViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662BB5CF1CB0D1F400EE8BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hyancat;
+				TargetAttributes = {
+					662BB5D61CB0D1F400EE8BAB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 662BB5D21CB0D1F400EE8BAB /* Build configuration list for PBXProject "HySwipablePagesViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 662BB5CE1CB0D1F400EE8BAB;
+			productRefGroup = 662BB5D81CB0D1F400EE8BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662BB5D61CB0D1F400EE8BAB /* HySwipablePagesViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662BB5D51CB0D1F400EE8BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662BB5EA1CB0D1F500EE8BAB /* LaunchScreen.storyboard in Resources */,
+				662BB5E71CB0D1F500EE8BAB /* Assets.xcassets in Resources */,
+				662BB6071CB0D8E600EE8BAB /* ThirdViewController.xib in Resources */,
+				662BB5E51CB0D1F500EE8BAB /* Main.storyboard in Resources */,
+				662BB6031CB0D8CC00EE8BAB /* FirstViewController.xib in Resources */,
+				662BB6051CB0D8DB00EE8BAB /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662BB5D31CB0D1F400EE8BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662BB5FA1CB0D41D00EE8BAB /* SecondViewController.m in Sources */,
+				662BB6011CB0D64500EE8BAB /* HyUIPanPoint.m in Sources */,
+				662BB5E21CB0D1F500EE8BAB /* ViewController.m in Sources */,
+				662BB5F41CB0D22B00EE8BAB /* HySwipablePagesViewController.m in Sources */,
+				662BB5F71CB0D40900EE8BAB /* FirstViewController.m in Sources */,
+				662BB60A1CB0E22B00EE8BAB /* UIView+HySwipablePagesViewController.m in Sources */,
+				662BB5DF1CB0D1F500EE8BAB /* AppDelegate.m in Sources */,
+				662BB5DC1CB0D1F500EE8BAB /* main.m in Sources */,
+				662BB5FD1CB0D42400EE8BAB /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		662BB5E31CB0D1F500EE8BAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662BB5E41CB0D1F500EE8BAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		662BB5E81CB0D1F500EE8BAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662BB5E91CB0D1F500EE8BAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662BB5EC1CB0D1F500EE8BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		662BB5ED1CB0D1F500EE8BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662BB5EF1CB0D1F500EE8BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HySwipablePagesViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyancat.HySwipablePagesViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		662BB5F01CB0D1F500EE8BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HySwipablePagesViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyancat.HySwipablePagesViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662BB5D21CB0D1F400EE8BAB /* Build configuration list for PBXProject "HySwipablePagesViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662BB5EC1CB0D1F500EE8BAB /* Debug */,
+				662BB5ED1CB0D1F500EE8BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662BB5EE1CB0D1F500EE8BAB /* Build configuration list for PBXNativeTarget "HySwipablePagesViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662BB5EF1CB0D1F500EE8BAB /* Debug */,
+				662BB5F01CB0D1F500EE8BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662BB5CF1CB0D1F400EE8BAB /* Project object */;
+}
