@@ -37,24 +37,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
+
+#if DEBUG
 	self.view.backgroundColor = [UIColor redColor];
-	
+#endif
 	UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
 	scrollView.showsVerticalScrollIndicator = NO;
 	scrollView.showsHorizontalScrollIndicator = NO;
 	scrollView.pagingEnabled = YES;
 	scrollView.bounces = NO;
 	scrollView.delegate = self;
+#if DEBUG
 	scrollView.backgroundColor = [UIColor blueColor];
-	
+#endif
 	[self.view hs_addSubviewToFill:scrollView];
+
 	self.scrollView = scrollView;
 
 	self.edgesForExtendedLayout = UIRectEdgeNone;
-	
+    self.automaticallyAdjustsScrollViewInsets = NO;
+
 	[self _loadSubviewControllers];
-	
+
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationDidChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
 }
 

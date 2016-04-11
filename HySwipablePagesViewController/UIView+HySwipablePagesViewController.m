@@ -89,6 +89,7 @@
 	if (view.superview) {
 		[view removeFromSuperview];
 	}
+    view.frame = self.bounds;
 	[self addSubview:view];
 	view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
 }
