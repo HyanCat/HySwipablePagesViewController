@@ -2,10 +2,11 @@
 Pod::Spec.new do |s|
   s.name             = "HySwipablePagesViewController"
   s.version          = "0.1.0"
-  s.summary          = "A Foundation Library."
+  s.summary          = "A swipable pages view controller."
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   s.description      = <<-DESC
+  A swipable pages view controller.
                        DESC
 
   s.homepage         = "https://github.com/HyanCat/HySwipablePagesViewController"
