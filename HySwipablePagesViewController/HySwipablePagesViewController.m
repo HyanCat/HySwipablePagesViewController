@@ -59,7 +59,10 @@
 
 	[self _loadSubviewControllers];
 
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationDidChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [UIDevice.currentDevice beginGeneratingDeviceOrientationNotifications];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationDidChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
+    });
 }
 
 - (void)orientationDidChange:(NSNotification *)notification
@@ -125,6 +128,7 @@
 		controller.view.hs_height = viewHeight;
 		controller.view.hs_x = idx * viewWidth;
 	}];
+
 	self.scrollView.contentSize = CGSizeMake(viewWidth * self.viewControllers.count, viewHeight);
 	[self.scrollView setContentOffset:CGPointMake(viewWidth*self.currentPage, 0) animated:NO];
 }
